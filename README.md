@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # IT313 - React Native Core Components
 
 **Student:** Jhyle D. Tagapulot  
@@ -46,3 +47,6 @@ The Student Directory Viewer is a simple React Native application that allows us
 1. Install the dependencies using `npm install`.
 2. Start the project using `npx expo start`.
 3. Open the application through Expo Go or an emulator.
+=======
+# IT313_Tagapulot_Jhyle_CoreComponents
+>>>>>>> fadf80d3a708ea5452f8c1e468e63dacd314bc9e
