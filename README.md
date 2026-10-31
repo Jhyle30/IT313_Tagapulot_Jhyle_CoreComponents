@@ -1,56 +1,48 @@
-# Welcome to your Expo app 👋
+# IT313 - React Native Core Components
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Student:** Jhyle D. Tagapulot  
+**Section:** BSIT-3C
+**Course:** IT313 - Mobile Programming  
+**Laboratory:** Lab 6 - Introduction to React Native Core Components
 
-## Get started
+## Project Description
 
-1. Install dependencies
+The Student Directory Viewer is a simple React Native application that allows users to view and search student information. It displays each student's photo, name, and year level. Users can also flag students for academic advising.
 
-   ```bash
-   npm install
-   ```
+## Components Used
 
-2. Start the app
+- **View** - Organizes the layout of the application.
+- **Text** - Displays student names, year levels, and labels.
+- **Image** - Displays student profile pictures.
+- **ScrollView** - Allows users to scroll through the student list.
+- **TextInput** - Allows users to search students by name.
+- **Pressable** - Handles the advising flag interaction and changes its appearance.
+- **TouchableOpacity** - Demonstrates another way to handle touch interactions.
 
-   ```bash
-   npx expo start
-   ```
+## Main Components
 
-In the output, you'll find options to open the app in a
+- **StudentCard** - Displays one student's information and advising flag.
+- **StudentDirectory** - Holds the student data, search query, and flag states.
+- **ProfileCard** - Demonstrates the use of View, Text, and Image.
+- **ModuleSearch** - Demonstrates searching with TextInput and ScrollView.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Features
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Displays five student profiles.
+- Searches student names.
+- Filters results without case sensitivity.
+- Flags and unflags students for advising.
+- Shows a message when no students match the search.
 
-## Get a fresh project
+## Technologies
 
-When you're ready, run:
+- React Native
+- Expo
+- TypeScript
+- React Hooks
 
-```bash
-npm run reset-project
-```
+## How to Run
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+1. Install the dependencies using `npm install`.
+2. Start the project using `npx expo start`.
+3. Open the application through Expo Go or an emulator.
